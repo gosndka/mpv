@@ -25,8 +25,8 @@ directory_mode=recursive
 
 --]]
 
-MAXENTRIES = 5000
-MAXDIRSTACK = 20
+MAXENTRIES = 100000
+MAXDIRSTACK = 100
 
 local msg = require 'mp.msg'
 local options = require 'mp.options'
